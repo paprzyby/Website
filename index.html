@@ -9,32 +9,49 @@
 				padding: 0;
 				margin: 0;
 			}
-			p {
-				color: white;
-			}
 			header {
 				background-color: grey;
 				color: white;
-				padding: 20px;
+				padding: 10px;
+				display: flex;
+				align-items: center;
+			}
+			.left {
+				flex: 1;
+				text-align: left;
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+			.center {
+				flex: 1;
+				text-align: center;
+			}
+			.right {
+				flex: 1;
+				text-align: right;
+			}
+			li {
+				display: inline-block;
+				margin: 10px;
+			}
+			p {
+				color: white;
 			}
 		</style>
 	</head>
 	<body>
 		<header>
-			<div style="text-align: center;">
-				(IMG of the logo)
+			<ul class="left">
+				<li>MEN</li>
+				<li>WOMEN</li>
+			</ul>
+			<div class="center">
+				IMG
+			</div>
+			<div class="right">
+				IMG
 			</div>
 		</header>
-		<h3>Some usefull commands:</h3>
-		<p>(br/) for newline</p>
-		<p>(button) for button</p>
-		<p>(or) or (ul) for list</p>
-		<p>(li) for list elements</p>
-		<h4>everything in (style) is css:</h4>
-		<p>(style)		</p>
-		<p>	selector {	</p>
-		<p>				</p>
-		<p>	}			</p>
-		<p>(/style)		</p>
 	</body>
 </html>
