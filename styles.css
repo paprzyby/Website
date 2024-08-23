@@ -5,39 +5,20 @@ body {
 	margin: 0;
 }
 header {
-	background-color: grey;
+	background-color: black;
 	color: white;
 	padding: 0px;
 	display: flex;
 	align-items: center;
 }
-.logo {
-	flex: 1;
-	background-image: url("images/Balenciaga_Logo.svg.png");
-	background-size: 300px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	position: relative;
-	height: 80px;
-	text-indent: -9999999999999999px;
-	top: 22px;
-	left: 1400px;
-	width: 300px;
-}
 a {
+	color: white;
 	text-decoration: none;
 	margin: 10px;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: blink;
 }
 h1 {
 	color: white;
-}
-footer {
-	text-align: center;
-	background-color: grey;
-	color: black;
-	padding: 10px;
-	margin-top: 700px;
 }
